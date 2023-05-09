@@ -30,6 +30,10 @@ module.exports = {
       },
     ],
     'import/prefer-default-export': ['off'],
+    'react/function-component-definition': [
+      2,
+      { namedComponents: 'arrow-function' },
+    ],
     '@typescript-eslint/semi': ['error', 'never'],
     'jsx-quotes': ['error', 'prefer-double'],
     'max-lines': [
